@@ -1,35 +1,24 @@
-html {
-    background-color:  #29b5c4;
-}
-
-
-    /* sintaxis de Css
+/* sintaxis de Css
     Selector, etiquetaHtml, class, ID
     propiedad : valor;
     propiedad : valor;
     propiedad : valor; */
 
+.caja1 {
+    color: bisque;
+}
 
-h1 {
-
-    background-color: #1b3f2b;
+.caja2 {
     color: green;
 }
 
-p{
-    color: blue;
-
+.caja3 {
+    color: red;
 }
 
-div{
-    background-color: red;
-    color: white;
-    width: 200px; 
-    height: 200px;
-    border: 5px solid black;
+#caja5{
+    color: brown;
 }
 
-a{
 
-background-color: purple;
-}
+
