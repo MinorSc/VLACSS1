@@ -14,17 +14,17 @@ body {
     background-color: blue;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+     font-size: 3rem; /*unidades de medida PX, % y rem  */
     text-align: center;
-    transition:
-    width 0.5s, heigth 0.5s, background-color: 0.8s;
-    -webkit-transition:width0.5s, heigth0.5s, background-color: 0.8s;
-    -moz-transition:width0.5s, heigth0.5s, background-color: 0.8s;
-    -ms-transition:width0.5s, heigth0.5s, background-color: 0.8s;
-    -o-transition:width0.5s, heigth0.5s, background-color: 0.8s;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+    -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s;
+    -moz-transition: width 0.5s, height 0.5s, background-color 0.5s;
+    -ms-transition: width 0.5s, height 0.5s, background-color 0.5s;
+    -o-transition: width 0.5s, height 0.5s, background-color 0.5s;
 }
+    
 
-.micuadro:hover {
+.micuadro:hover{
     background-color: aqua;
     width: 400px;
     height: 400px;

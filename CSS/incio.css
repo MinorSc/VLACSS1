@@ -1,0 +1,40 @@
+/* selesctor universal
+aqui estamos reiniciando  los valores del navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+}
+
+body{
+    background-color: #d5ccb4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242422;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #5d4a14;
+    height: 100px;
+}
+
+nav{
+    background-color: #101ee2;
+    height: 200px;
+}
+
+main{
+    background-color: #85bb40;
+    height: 550px;
+}
+
+footer{
+    background-color: #d43a8f;
+    height: 150px;
+}
