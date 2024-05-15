@@ -1,0 +1,23 @@
+.Clickme{
+    color: blue;
+}
+
+.Clickme:hover{
+    color: red;
+}
+
+.Google{
+    color: blue;
+}
+
+.Google:active{
+    color: green;
+}
+
+input{
+    background-color: white;
+}
+
+input:focus{
+    background-color: yellow;
+}
