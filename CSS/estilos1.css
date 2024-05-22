@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: linear-gradient(180deg, #f19583 0, #e68379 25%, #d86c6c 50%, #c95561 75%, #bd425b 100%);
+}
+
+body{
+    width: 90%;
+    height: 1000px;
+    margin: 15% auto;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img {
+        width: 100px;
+        position: sticky;
+}
+
+nav{
+    /* float: right; */
+    /* margin-top: 40px; */
+    text-align: center;
+}
+
+nav ul{
+    margin-top: 50px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    width: 90%;
+    padding: 8px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    position: fixed;
+}
+
+main{
+    padding: 20px;
+}
+
+.limpiar{
+    clear:both;
+}
+
+#float-clear{
+
+}
+
+.separador {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    clear: both;
+}
+.seccion {
+    background-image: radial-gradient(circle at 18.05% 47.21%, #ffff74 0, #f2f23c 50%, #bed000 100%);
+}
+.subtitulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.parrafo {
+    font-size: 1.2em;
+}
+
+/* estilos del aside  */
+.aside li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.aside li a {
+    text-decoration: none;
+   color: black;
+}
+
+.aside li a:hover {
+    color: red;
+ }
